@@ -33,3 +33,8 @@ print("Новостей в ленте:", len(TEXTS))
 for i in TITLES:
     print(i)
 
+# Задача 2
+res = TOPICS[:4]
+for i in res:
+    print("рубрика:", i)
+print("всего рубрик в ленте:", len(TOPICS))
